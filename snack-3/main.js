@@ -4,6 +4,4 @@ const firstNumber = Number(prompt("Inserisci il primo numero"))
 const secondNumber = Number(prompt("Inserisci il secondo numero"))
 const thirdNumber = Number(prompt("Inserisci il terzo numero"))
 
-const number = Number(prompt("Inserisci un numero"))
-
 console.log(firstNumber + secondNumber + thirdNumber)
