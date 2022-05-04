@@ -8,9 +8,9 @@ const lastNameList = ["Altieri", "Bianchi", "Perisic", "Brozovic", "Handanovic"]
 const combinedList = []
 const randomName = nameList[Math.floor(Math.random()*nameList.length)]
 const randomLastname = lastNameList[Math.floor(Math.random()*lastNameList.length)]
-const combined = randomName + randomLastname
-// for (let i = 0; 1 < 10; i++) {
-//     combinedList.push(combined)
-// }
+const combined = randomName + " " + randomLastname
+for (let i = 0; i < 10; i++) {
+    combinedList.push(combined)[i]
+}
 
-console.log(combined)
+console.log(combinedList)
