@@ -6,10 +6,11 @@ const nameList = ["Manuel", "Stefano", "Pasquale", "Pippo", "Franco"]
 const lastNameList = ["Altieri", "Bianchi", "Perisic", "Brozovic", "Handanovic"]
 // Creare lista con combinazione di nomi e cognomi
 const combinedList = []
-const randomName = nameList[Math.floor(Math.random()*nameList.length)]
-const randomLastname = lastNameList[Math.floor(Math.random()*lastNameList.length)]
-const combined = randomName + " " + randomLastname
+
 for (let i = 0; i < 10; i++) {
+    const randomName = nameList[Math.floor(Math.random()*nameList.length)]
+    const randomLastname = lastNameList[Math.floor(Math.random()*lastNameList.length)]
+    const combined = randomName + " " + randomLastname
     combinedList.push(combined)[i]
 }
 
